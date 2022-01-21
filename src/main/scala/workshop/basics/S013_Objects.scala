@@ -10,7 +10,7 @@ object S013_Objects extends  App {
     // object constructor
     // initializing object first time on first use
     println("Logger...")
-    
+
     var logLevel : String = "Debug"
     // member function for object
     def setLogLevel(l: String) = logLevel = l
